@@ -1,0 +1,39 @@
+Test data created with 1170 data points
+
+Testing RSI-14 strategy:
+  Data points: 1170
+  Buy signals: 68 (5.8%)
+  Sell signals: 193 (16.5%)
+  Hold signals: 909 (77.7%)
+  Strategy outputs additional columns: RSI
+  Plot saved as RSI-14_signals.png
+
+Testing Random strategy:
+  Data points: 1170
+  Buy signals: 37 (3.2%)
+  Sell signals: 21 (1.8%)
+  Hold signals: 1112 (95.0%)
+  Plot saved as Random_signals.png
+
+Testing Buy-and-Hold strategy:
+  Data points: 1170
+  Buy signals: 1 (0.1%)
+  Sell signals: 0 (0.0%)
+  Hold signals: 1169 (99.9%)
+  Plot saved as Buy-and-Hold_signals.png
+
+Testing EMA-12-26 strategy:
+  Data points: 1170
+  Buy signals: 10 (0.9%)
+  Sell signals: 10 (0.9%)
+  Hold signals: 1150 (98.3%)
+  Strategy outputs additional columns: fast_ema, slow_ema, ema_diff, ema_diff_prev
+  Plot saved as EMA-12-26_signals.png
+
+Testing VWAP-20 strategy:
+  Data points: 1170
+  Buy signals: 0 (0.0%)
+  Sell signals: 0 (0.0%)
+  Hold signals: 1170 (100.0%)
+  Strategy outputs additional columns: VWAP, vwap_dist
+  Plot saved as VWAP-20_signals.png
