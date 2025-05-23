@@ -1,12 +1,15 @@
-"""Position sizing strategies for the backtesting engine."""
-from .fixed_dollar import FixedDollarSizer
-from .fixed_percent import FixedPercentSizer
-from .kelly import KellySizer
-from .base import PositionSizer
+"""Simple position sizing strategies for portfolio management."""
+
+from .simple_position_sizing import (
+    FixedPositionSizer,
+    KellyPositionSizer,
+    VolatilityPositionSizer,
+    create_position_sizer
+)
 
 __all__ = [
-    'PositionSizer',
-    'FixedDollarSizer',
-    'FixedPercentSizer',
-    'KellySizer'
+    'FixedPositionSizer',
+    'KellyPositionSizer', 
+    'VolatilityPositionSizer',
+    'create_position_sizer'
 ] 

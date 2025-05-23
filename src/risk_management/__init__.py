@@ -1,12 +1,17 @@
-"""Risk management tools for the backtesting engine."""
-from .stop_loss import StopLoss
-from .take_profit import TakeProfit
-from .trailing_stop import TrailingStop
-from .risk_manager import RiskManager
+"""Simple risk management tools for trading systems."""
+
+from .simple_risk_management import (
+    SimpleRiskManager,
+    FixedStopLoss,
+    FixedTakeProfit,
+    ExitReason,
+    create_risk_manager
+)
 
 __all__ = [
-    'StopLoss',
-    'TakeProfit',
-    'TrailingStop',
-    'RiskManager'
+    'SimpleRiskManager',
+    'FixedStopLoss',
+    'FixedTakeProfit',
+    'ExitReason',
+    'create_risk_manager'
 ] 

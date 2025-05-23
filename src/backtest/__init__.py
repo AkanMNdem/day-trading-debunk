@@ -1,11 +1,8 @@
-from .engine import BacktestEngine
-from .portfolio import Portfolio
-from .metrics import calculate_metrics, plot_equity_curve, plot_drawdown
+"""Simple backtesting framework for trading strategy analysis."""
+
+from .simple_backtest import SimpleBacktest, quick_backtest
 
 __all__ = [
-    'BacktestEngine',
-    'Portfolio',
-    'calculate_metrics',
-    'plot_equity_curve',
-    'plot_drawdown'
+    'SimpleBacktest',
+    'quick_backtest'
 ]
